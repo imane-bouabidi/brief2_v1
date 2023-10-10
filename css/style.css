@@ -1,0 +1,193 @@
+*{
+    background-color: black;
+    margin: 15px;
+}
+.menu-header{
+    display: flex; /* Use flexbox to arrange elements horizontally */
+    justify-content: space-between; /* Create space between logo and menu */
+    align-items: center; /* Vertically center elements */
+    padding: 10px; /* Add padding for spacing */
+    color: white; /* Example text color */
+    margin: 0%;
+}
+.logo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+.menu-header h1{
+    color: white;
+    margin: 0%;
+}
+.menu-header a{
+    text-decoration: none;
+    color: white;
+    font-family:Impact,'Arial Narrow Bold', sans-serif;
+    font-weight: 100 !important
+}
+.pages-links{
+   word-spacing: 30px;
+}
+#first-section{
+    margin: 0%;
+}
+.home-section{
+    display: flex;
+    margin-top: 4%;
+}
+
+.home-section p{
+    width: 40%;
+    height: 40%;
+    color: white;
+    margin-top: 5.2%;
+    font-size: 20px;
+}
+
+.images-section1{
+    margin: 0%;
+    width: 60%;
+}
+
+.img1 img{
+    width: 403px;
+    height: 427px;
+    margin: 0%;
+    margin-left: 56.1%;
+}
+
+.img2 img{
+    width: 503px;
+    height: 507px;
+    margin: 0%;
+    margin-top: -10%;
+    margin-left: -3%;
+}
+
+.artist p{
+    font-size: 300px;
+    color: white;
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 15%;
+    font-weight: bold;
+    z-index: 1;
+    background-color: transparent;
+}
+.time p{
+    font-size: 300px;
+    color: white;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 27%;
+    font-weight: bold;
+    z-index: 1;
+    background-color: transparent;
+
+}
+
+#first-section button{
+    color: black;
+    background-color: white;
+    margin-left: 50%;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    margin-top: -5%;
+}
+
+
+#second-section h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container .box img{
+    margin-bottom: 15px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titre-about{
+    margin-top: 15%;
+}
+
+.titre-about h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text{
+    color: white;
+    font-size: 40px;
+}
+
+.text p{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#fourth-section{
+   justify-content: center;
+    align-items: center;
+}
+
+.testimonials{
+    margin-top: 10%;
+}
+
+.testimonials h1{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    color: white;
+    font-weight: 100px;
+    text-align: center;
+    margin: 12px;
+}
+
+
+.paragraph p{
+    margin-left:15%;
+    margin-right: 15%;
+    color: white;
+    margin-top: 5.2%;
+    font-size: 20px;
+}
