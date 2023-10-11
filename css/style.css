@@ -100,6 +100,7 @@
 #second-section h1{
     color: white;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 .container{
     display: flex;
@@ -111,8 +112,9 @@
 }
 
 .container .heading h1{
-    font-size: 50px;
-    font-weight: 100;
+    font-size: 81.308px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .container .box{
@@ -142,8 +144,9 @@
 
 .titre-about h1{
     color: white;
-    font-size: 50px;
-    font-weight: 100;
+    font-size: 81.308px;
+    font-style: normal;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -171,8 +174,9 @@
 .testimonials h1{
     color: white;
     text-align: center;
-    font-weight: 300;
-    font-size: 50px;
+    font-size: 81.308px;
+    font-style: normal;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
@@ -181,8 +185,8 @@
     font-weight: 100px;
     text-align: center;
     margin: 12px;
+    margin-bottom: 4%;
 }
-
 
 .paragraph p{
     margin-left:15%;
@@ -191,3 +195,150 @@
     margin-top: 5.2%;
     font-size: 20px;
 }
+
+.testimonials-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+    margin-right: 80px;
+    margin-left: 80px;
+
+}
+
+.left-div{
+    color: white;
+    width: 70%;
+}
+
+.right-div{
+    display: inline-block;
+    color: white;
+    width: 28%;
+    background-color: #181818;
+}
+
+.right-div img{
+    margin: 0%;
+}
+.top-div{
+    display: flex;
+    background-color: #181818;
+}
+
+.top-div img{
+    margin: 0%;
+}
+
+.bottom-div{
+    display: flex;
+    background-color: #181818;
+}
+.bottom-div img{
+    margin: 0%;
+}
+
+.text-div{
+    margin-left: 20px;
+    margin-right: 0%;
+    padding-right: 0%;
+    background-color: transparent;
+}
+
+.text-div h1{
+    font-size: 35px;
+    margin: auto 0% auto auto;
+    background-color: transparent;
+    padding-right: 0%;
+    /* width: 100%; */
+    /* margin-right: 0%; */
+}
+
+.text-div p{
+    font-size: 15px;
+    margin: 50px 50px 60px 0px;
+    background-color: transparent;
+}
+
+.text-div a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    margin-left: 0%;
+    background-color: transparent;
+}
+
+.review-button button{
+    color: white;
+    font-size: 18px;
+    padding: 16px 25px;
+    border-color: white;
+}
+.review-button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#contact-section{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre{
+    color: white;
+    text-align: center;
+    font-size: 81.308px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 40%;
+}
+
+.btn-contact button{
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 7px 28px;
+}
+
+.all-form-contact{
+    background-color: red;
+}
+
+form input, textarea{
+    outline: none;
+    display: block;
+    width: 600px;
+    color: white;
+    height: 30px;
+    border-width: 0px 0px 2px;
+    border-color: white;
+    margin-top: 0%;
+    margin-bottom: 50px;
+}
+
+textarea{
+    height: 60px;
+}
+
+form label{
+    font-size: 25px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.social p{
+    display: flex;
+    font-size: 15px;
+}
+
