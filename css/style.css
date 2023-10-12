@@ -122,9 +122,16 @@
     flex-direction: row;
     justify-content: center;
 }
+.container .box .left{
+    margin-right: -8px;
+}
+
+.container .box .right{
+    margin-left: -2px;
+}
 
 .container .box img{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .about{
@@ -153,13 +160,13 @@
 
 .text{
     color: white;
-    font-size: 40px;
 }
 
 .text p{
-    font-size: 40px;
+    font-size: 38px;
     font-style: normal;
     font-weight: 400;
+    font-family: 'Inter';
 }
 
 #fourth-section{
@@ -201,8 +208,13 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 4%;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.testimonials-div h1,p,a{
+    font-family: 'Inter';
 
 }
 
