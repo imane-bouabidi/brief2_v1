@@ -11,7 +11,7 @@
     margin: 0%;
 }
 .logo{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Inter';
     margin: 0%;
 }
 .menu-header h1{
@@ -21,7 +21,7 @@
 .menu-header a{
     text-decoration: none;
     color: white;
-    font-family:Impact,'Arial Narrow Bold', sans-serif;
+    font-family:'Inter';
     font-weight: 100 !important
 }
 .pages-links{
@@ -124,7 +124,7 @@
 }
 
 .container .box img{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .about{
