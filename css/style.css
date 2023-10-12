@@ -17,6 +17,7 @@
 .menu-header h1{
     color: white;
     margin: 0%;
+    font-size: 20px;
 }
 .menu-header a{
     text-decoration: none;
@@ -59,17 +60,19 @@
     width: 503px;
     height: 507px;
     margin: 0%;
-    margin-top: -10%;
+    margin-top: -7%;
     margin-left: -3%;
 }
 
 .artist p{
+    letter-spacing: 10px;
     font-size: 300px;
     color: white;
     position: absolute;
     margin-top: -25%;
-    margin-left: 15%;
+    margin-left: 12%;
     font-weight: bold;
+    font-family: 'Playfair Display';
     z-index: 1;
     background-color: transparent;
 }
@@ -77,9 +80,10 @@
     font-size: 300px;
     color: white;
     position: absolute;
-    margin-top: -10%;
+    margin-top: -8%;
     margin-left: 27%;
     font-weight: bold;
+    font-family: 'Playfair Display';
     z-index: 1;
     background-color: transparent;
 
@@ -114,6 +118,7 @@
 .container .heading h1{
     font-size: 81.308px;
     font-style: normal;
+    font-family: 'Playfair Display';
     font-weight: 400;
 }
 
@@ -152,6 +157,7 @@
 .titre-about h1{
     color: white;
     font-size: 81.308px;
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     text-align: center;
@@ -182,6 +188,7 @@
     color: white;
     text-align: center;
     font-size: 81.308px;
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     margin-bottom: 20px;
@@ -304,6 +311,7 @@
     text-align: center;
     font-size: 81.308px;
     font-style: normal;
+    font-family: 'Playfair Display';
     font-weight: 400;
     margin-bottom: 40px;
     margin-top: 40%;
@@ -330,6 +338,7 @@ form input, textarea{
     border-color: white;
     margin-top: 0%;
     margin-bottom: 50px;
+    font-size: 18px;
 }
 
 textarea{
@@ -337,7 +346,7 @@ textarea{
 }
 
 form label{
-    font-size: 25px;
+    font-size: 40px;
 }
 
 #footer{
