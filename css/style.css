@@ -27,6 +27,7 @@
 }
 .pages-links{
    word-spacing: 30px;
+   font-family:'Inter';
 }
 #first-section{
     margin: 0%;
@@ -89,8 +90,9 @@
 
 }
 
-#first-section button{
+#first-section a{
     color: black;
+    text-decoration: none;
     background-color: white;
     margin-left: 50%;
     font-size: 25px;
@@ -98,6 +100,10 @@
     font-weight: bold;
     border: none;
     margin-top: -5%;
+}
+
+.second-section{
+    margin-top: 15%;
 }
 
 
@@ -112,7 +118,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 40px 20px 0 20px;
+    margin: 12% 20px 0 20px;
 }
 
 .container .heading h1{
@@ -314,7 +320,7 @@
     font-family: 'Playfair Display';
     font-weight: 400;
     margin-bottom: 40px;
-    margin-top: 40%;
+    margin-top: 25%;
 }
 
 .btn-contact button{
@@ -339,6 +345,7 @@ form input, textarea{
     margin-top: 0%;
     margin-bottom: 50px;
     font-size: 18px;
+    resize: none;
 }
 
 textarea{
